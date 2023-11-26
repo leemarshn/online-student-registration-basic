@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* MENU STYLES ************/
+.menu {
+    background-color: #00417e; /* Blue background color */
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #FFB236; /* Darker blue on hover */
+    color: black;
+}
+/* END OF MENU STYLES ************
+**********************************
+**********************************/
+
+/* BEGIN CUSTOM FORM STYLES */
+.custom-primary-btn {
+    background-color: #00417e;
+    border-color: #00417e;
+    color: #ffffff;
+}
+
+.custom-primary-btn:hover {
+    background-color: #FFB236;
+    border-color: #002d4c;
+    color: #ffffff;
+}
+
+
+/* END OF CUSTOM FORM STYLES ************
+**********************************
+**********************************/
+
+/* BEGIN CUSTOM FOOTER STYLES */
+
+.footer-container {
+    margin-top: 20px;
+    background-color: #FFB236;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0px;
+
+    width: 100%;
+}
+
+/* END OF FOOTER FORM STYLES ************
+**********************************
+**********************************/

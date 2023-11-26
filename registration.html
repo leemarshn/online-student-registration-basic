@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <script src="./static/js/custom-validation.js" defer></script>
+
+
+    <title>REGISTRATION</title>
+    <script src="./static/js/scripts.js" defer></script>
+</head>
+
+<body>
+<!-- Include the menu -->
+<div class="header" id="header-container"></div>
+<!-- Include the menu -->
+<div class="menu" id="menu-container"></div>
+
+<!-- Main content of the homepage -->
+<div class="container mt-5">
+    <h2>Graduation Registration</h2>
+
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="registrationID">Student Registration ID</label>
+                <input type="text" class="form-control" id="registrationID" placeholder="Enter Registration ID">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="nationalID">National ID</label>
+                <input type="text" class="form-control" id="nationalID" placeholder="Enter National ID">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="surname">Surname</label>
+                <input type="text" class="form-control" id="surname" placeholder="Enter Surname">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter Phone Number">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="school">School</label>
+                <select class="form-control" id="school">
+                    <option>Computing & Informatics</option>
+                    <option>School of Business</option>
+                    <option>School of Law</option>
+                    <option>School of Engineering</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="campus">Campus</label>
+                <select class="form-control" id="campus">
+                    <option>Thika</option>
+                    <option>Nairobi</option>
+                    <option>Mombasa</option>
+                    <option>Nakuru</option>
+                </select>
+            </div>
+            <div class="form-group col-md-4">
+                <label for="level">Level</label>
+                <select class="form-control" id="level">
+                    <option>Degree</option>
+                    <option>Diploma</option>
+                    <option>Masters</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Tick the Items you will Need</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gown">
+                    <label class="form-check-label" for="gown">Gown</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="booklet">
+                    <label class="form-check-label" for="booklet">Booklet</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="transport">
+                    <label class="form-check-label" for="transport">Transport</label>
+                </div>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label>Will you attend Graduation Orientation?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="orientation" id="yes" value="yes">
+                    <label class="form-check-label" for="yes">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="orientation" id="no" value="no">
+                    <label class="form-check-label" for="no">No</label>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn custom-primary-btn">Submit</button>
+    </form>
+</div>
+
+<!-- Include the footer -->
+<div class="footer-container" id="footer-container"></div>
+
+</body>
+
+</html>
