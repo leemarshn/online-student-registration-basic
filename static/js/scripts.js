@@ -1,4 +1,4 @@
-// Using JavaScript to dynamically load footer.html content
+// Using JavaScript to dynamically load header.html, menu.html & footer.html content
 fetch('./includes/footer.html')
     .then(response => {
         if (!response.ok) {

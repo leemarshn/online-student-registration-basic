@@ -1,3 +1,4 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,11 +32,7 @@ body {
     background-color: #FFB236; /* Darker blue on hover */
     color: black;
 }
-/* END OF MENU STYLES ************
-**********************************
-**********************************/
 
-/* BEGIN CUSTOM FORM STYLES */
 .custom-primary-btn {
     background-color: #00417e;
     border-color: #00417e;
@@ -47,14 +44,6 @@ body {
     border-color: #002d4c;
     color: #ffffff;
 }
-
-
-/* END OF CUSTOM FORM STYLES ************
-**********************************
-**********************************/
-
-/* BEGIN CUSTOM FOOTER STYLES */
-
 .footer-container {
     margin-top: 20px;
     background-color: #FFB236;
@@ -62,10 +51,7 @@ body {
     text-align: center;
     padding: 10px;
     bottom: 0px;
-
     width: 100%;
 }
 
-/* END OF FOOTER FORM STYLES ************
-**********************************
-**********************************/
+

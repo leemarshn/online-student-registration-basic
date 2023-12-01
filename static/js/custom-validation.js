@@ -1,4 +1,4 @@
-
+/* used to validate registration form (custom-validation.js) */
 function validateForm() {
     var registrationID = document.getElementById('registrationID').value;
     var nationalID = document.getElementById('nationalID').value;
@@ -36,7 +36,7 @@ function validateForm() {
 
     return true;
 }
-
+//REGEX
 function isValidNumber(value) {
     return /^\d+$/.test(value);
 }
